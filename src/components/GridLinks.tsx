@@ -32,7 +32,7 @@ export const GridLinks = () => {
       {links.map((link) => (
         <Button
           key={link.label}
-          className="p-5 flex justify-between font-bold shadow-lg"
+          className="p-5 flex justify-between font-bold shadow-lg rounded-xl"
           onClick={() => handleLink(link.url)}
         >
           {link.label}
