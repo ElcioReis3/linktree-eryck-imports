@@ -1,21 +1,5 @@
 "use client";
-import {
-  BadgePercent,
-  Bus,
-  Fuel,
-  Gift,
-  Globe,
-  GraduationCap,
-  Landmark,
-  MailIcon,
-  Sparkle,
-  UtensilsIcon,
-  Dumbbell,
-  Building2,
-  HardHat,
-  Shirt,
-  ShirtIcon,
-} from "lucide-react";
+import { Globe, MailIcon, ShirtIcon } from "lucide-react";
 import { Separator } from "../ui/separator";
 import { DynamicButtons } from "../DynamicButtons";
 import { Alert, AlertTitle } from "../ui/alert";
@@ -119,7 +103,7 @@ export const Main = () => {
           </div>
 
           {/* Logo abaixo do banner, centralizada */}
-          <div className="-mt-20 z-10 w-48 h-48 rounded-full overflow-hidden bg-white p-3 shadow-lg">
+          <div className="-mt-16 z-10 w-48 h-48 rounded-full overflow-hidden bg-white p-3 shadow-lg">
             <img
               src="/images/logo.png"
               alt="Logo"
