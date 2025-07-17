@@ -1,14 +1,12 @@
-import { Footer } from "@/components/Footer";
-import { GridLinks } from "@/components/GridLinks";
-import { Header } from "@/components/Header";
-import { ThemeButton } from "@/components/theme-button";
+import { Footer } from "@/components/Layout/Footer";
+import { Header } from "@/components/Layout/Header";
+import { Main } from "@/components/Layout/Main";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <ThemeButton />
-      <GridLinks />
+      <Main />
       <Footer />
     </>
   );
