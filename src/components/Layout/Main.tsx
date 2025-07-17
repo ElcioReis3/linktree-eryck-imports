@@ -6,6 +6,7 @@ import { Alert, AlertTitle } from "../ui/alert";
 import { CustomIcon } from "../ui/customIconWhats";
 import { InstagramIcon } from "../ui/instagramIcon";
 import Image from "next/image";
+import { Logo } from "../Logo";
 
 type phoneType = {
   phoneOne: number;
@@ -103,12 +104,8 @@ export const Main = () => {
           </div>
 
           {/* Logo abaixo do banner, centralizada */}
-          <div className="-mt-16 z-10 w-48 h-48 rounded-full overflow-hidden bg-white p-3 shadow-lg">
-            <img
-              src="/images/logo.png"
-              alt="Logo"
-              className="w-full h-full object-contain"
-            />
+          <div className="-mt-10 md:-mt-16 z-10 w-32 h-32 rounded-full overflow-hidden bg-white shadow-lg">
+            <Logo />
           </div>
         </div>
 
