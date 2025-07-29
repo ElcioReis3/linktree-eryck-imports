@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR className={poppins.className}">
+    <html lang="pt-BR "className={poppins.className}>
       <body className="bg-gradient-to-b from-white to-gray-400 dark:bg-black dark:from-black dark:to-black">
         {" "}
         <ThemeProvider
